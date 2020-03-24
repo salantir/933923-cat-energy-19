@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Олейников](https://up.htmlacademy.ru/adaptive/19/user/933923).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Казанцев](https://htmlacademy.ru/profile/id24186).
 
 ---
 
