@@ -27,13 +27,12 @@
   text-transform: uppercase;
   font-size: 24px;
   line-height: 37px;
-  margin-left: 90px;
+  padding-left: 90px;
   position: relative;
 }
 
 .programs__name::before {
   content: "";
-  background-image: url("../img/icon-cat-slim.svg");
   width: 50px;
   height: 50px;
   display: block;
@@ -41,10 +40,15 @@
   background-color: #68b738;
   border-radius: 50%;
   position: absolute;
-  left: -70px;
+  left: 0px;
 }
 
-.programs__name--walk::before {
+.programs__name--mass1::before {
+  content: "";
+  background-image: url("../img/icon-cat-slim.svg");
+}
+
+.programs__name--mass::before {
   content: "";
   background-image: url("../img/icon-cat-pro.svg");
 }
@@ -53,10 +57,10 @@
   background-color: #f2f2f2;
   margin: auto;
   width: 280px;
+  padding: 0 20px;
 }
 
 .programs__advertising {
-  margin-left: 20px;
   padding-right: 70px;
   margin-bottom: 45px;
 }
@@ -75,16 +79,18 @@
   text-transform: uppercase;
   font-size: 16px;
   line-height: 16px;
+  position: relative;
+  padding-right: 50px;
 }
 
 .programs__link::after {
   content: "";
   display: block;
   background-image: url("../img/icon-right-arrow-verylong.svg");
-  position: relative;
+  position: absolute;
   width: 24px;
   height: 11px;
   background-repeat: no-repeat;
-  left: 100px;
-  bottom: 14px;
+  right: 0;
+  bottom: 5px;
 }
